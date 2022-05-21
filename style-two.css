@@ -1,4 +1,21 @@
+/*common style or utilities*/
+body{
+    font-family: 'pappins', sans-serif;
+    background-color: #F3F1FF;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+}
+main{
+    display:flex;
+    justify-content: center;
+}
 /*top players style*/
+.section-header{
+    color:#562FFF;
+    font-size: 24px;
+}
 .players{
     display:grid;
     /*grid-template-colomns:repeat(3, 1fr);*/
